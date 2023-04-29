@@ -5,8 +5,8 @@ class CldCustUploadLgRestApi extends Component {
 		var file = e.target.files[0];
 
 		// Set your cloud name and unsigned upload preset here:
-		var YOUR_CLOUD_NAME = 'dqjhgnivi';
-		var YOUR_UNSIGNED_UPLOAD_PRESET = 'crystal';
+		var YOUR_CLOUD_NAME = '';
+		var YOUR_UNSIGNED_UPLOAD_PRESET = '';
 
 		var POST_URL =
 			'https://api.cloudinary.com/v1_1/' + YOUR_CLOUD_NAME + '/auto/upload';
